@@ -1,5 +1,6 @@
 --RScrpit Backdoor 
 --feito por rudha
+--O BACKDOOR SCANNER DOS PATOS!
 
 print("RScrpit Backdoor - Started SUCESSFULY")
 local function debug(msg)
