@@ -39,7 +39,7 @@ InPrt.BorderColor3 = Color3.new(0,0,5)
 InPrt.Name = "Inside"
 InPrt.Parent = MnPrt
 InPrt.Position = UDim2.new(0,0,0,50)
-InPrt.Size = UDim2.new(0,360,0,190)
+InPrt.Size = UDim2.new(0,360,0,290)
 InPrt.Draggable = false
 
 --Função pra pegar a alerta. pra ver se tá backdoored
@@ -51,9 +51,9 @@ Cody.MultiLine = true
 Cody.Name = "Code"
 Cody.Parent = InPrt
 Cody.Position = UDim2.new(0,5,0,5)
-Cody.Size = UDim2.new(0,350,0,140)
+Cody.Size = UDim2.new(0,350,0,235)
 Cody.Font = Enum.Font.Legacy
-Cody.FontSize = Enum.FontSize.Size8
+Cody.FontSize = Enum.FontSize.Size9
 Cody.Text = game:HttpGet('https://raw.githubusercontent.com/Rudha33/checkercode-for-rscrpit-bs/refs/heads/main/CodeLoader')
 Cody.TextColor3 = Color3.new(1,1,1)
 Cody.TextWrapped = true
@@ -66,8 +66,8 @@ Execy.BackgroundColor3 = Color3.new(0,0,0)
 Execy.BorderColor3 = Color3.new(0,0,5)
 Execy.Name = "Executar"
 Execy.Parent = InPrt
-Execy.Position = UDim2.new(0,5,0,150)
-Execy.Size = UDim2.new(0,170,0,35)
+Execy.Position = UDim2.new(0,10,0,250)
+Execy.Size = UDim2.new(0,165,0,35)
 Execy.Font = Enum.Font.Legacy
 Execy.FontSize = Enum.FontSize.Size14
 Execy.Text = 'Executar'
@@ -78,8 +78,8 @@ Acqur.BackgroundColor3 = Color3.new(0,0,0)
 Acqur.BorderColor3 = Color3.new(0,0,5)
 Acqur.Name = "Adquirir"
 Acqur.Parent = InPrt
-Acqur.Position = UDim2.new(0,185,0,150)
-Acqur.Size = UDim2.new(0,170,0,35)
+Acqur.Position = UDim2.new(0,185,0,250)
+Acqur.Size = UDim2.new(0,165,0,35)
 Acqur.Font = Enum.Font.Legacy
 Acqur.FontSize = Enum.FontSize.Size14
 Acqur.Text = 'Adquirir'
@@ -201,5 +201,3 @@ Acqur.MouseButton1Click:Connect(function()
 		isAcquiring = false 
 	end 
 end)
-
--- That's the end of the code!
